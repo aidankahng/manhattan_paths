@@ -43,8 +43,7 @@ You can't just drive aimlessly though! You are actually a part of a world famous
 ```
 # We will treat going from one checkpoint to the next as a 
 # miniature problem (identical to the problem with no checkpoints) 
-# and at the end use multiplication similar to the idea of 
-# combinatorial solving to calculate the total number of paths
+# and at the end use multiplication to calculate the total number of paths
 def manhattan_path_mini(start:tuple[int, int], target:tuple[int,int], obstacles:[tuple[int,int]]) -> int:
     dp_dict = {}
     dp_dict[target] = 1
